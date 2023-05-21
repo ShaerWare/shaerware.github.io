@@ -1,0 +1,18 @@
+RewriteEngine On
+RewriteRule ^index\.html$ / [R=301,L]
+RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]
+
+ErrorDocument 404 https://artemshaer.ru/index.html
+
+#RewriteEngine on
+# редирект на русскоязычную версию сайта для русских и украинской браузеров
+#RewriteCond %{REQUEST_URI} ^/$ [NC]
+#RewriteCond %{HTTP:Accept-Language} (ru|uk) [NC]
+#RewriteRule .* http://artemshaer.ru/ru/ [R=302,L]
+# редирект на англоязычную версию сайта для всех остальных языков
+#RewriteCond %{REQUEST_URI} ^/$ [NC]
+#RewriteRule .* http://artemshaer.ru/ [R=302,L]
+
+RewriteEngine On 
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
