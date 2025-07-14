@@ -109,7 +109,12 @@
 }
 
 /* Для экранов до 440px */
-@media (max-width: 440px) {
+@media (max-width: 500px) {
+
+    .contacts__networks {
+        column-count: 1; /* Одна колонка для списка адресов */
+    }
+
     .contacts__box {
         padding: 3px;
         max-height: 80vh; /* Максимально компактно */
