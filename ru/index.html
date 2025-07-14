@@ -47,6 +47,19 @@ img.emoji {
 	background: none !important;
 	padding: 0 !important;
 }
+.seo-title {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            border: 0;
+        }
+        .title__words--hidden {
+            display: block;
+        }
 </style>
 <link rel='stylesheet' id='contact-form-7-css'  href='../wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.6' type='text/css' media='all' />
 <link rel='stylesheet' id='wpml-menu-item-0-css'  href='../wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/menu-item/style.css?ver=1' type='text/css' media='all' />
@@ -125,7 +138,9 @@ img.emoji {
         <div class="content">
             <div class="text-block w-100per">
                 <div class="text-block__top">
-                    <h1 class="title title--large title--main paralax paralax--transition" data-translate="50" data-rotate="150"><span class="title__words title__words--hidden js-title-words">Полный цикл веб и мобильной разработки</span></h1>
+                    <h1 class="title title--large title--main paralax paralax--transition" data-translate="50" data-rotate="150"><span class="title__words title__words--hidden js-title-words" aria-hidden="true">Полный цикл веб и мобильной разработки</span>
+                    <span class="seo-title">Полный цикл веб и мобильной разработки</span></h1>
+                    
                     <div class="slogan animation animation--fade-up-text-last paralax paralax--transition" data-translate="55" data-rotate="150"><p>Поможем составить техническое задание. Также ведем полную и организованную проектную документацию.</p>
 </div>
                 </div>
@@ -144,8 +159,8 @@ img.emoji {
         <div class="contacts__inner">
             <h2 class="title title--large">
             </h2>
-            <div class="contacts__box">
-                <div class="contacts__box">
+            <div class="contacts__box" style="justify-content: center">
+                <div >
                 <ul class="contacts__list">
                     <li class="contacts__item">
                         <div class="contacts__item-title">
@@ -157,11 +172,15 @@ img.emoji {
                             </div>
                     </li>
                     <li class="contacts__item">
-                        <div class="contacts__item-title">Discord</div>
-                        <div class="contacts__item-main contacts__item-main--w200"> </div>
-                        <ul class="contacts__messangers contacts__item-main">
-                        <li><a target="_blank" class="contacts__icon magnit" href="shaerware"><img src="../wp-content/themes/main/assets/img/svg/pngwing.com.png" alt=""></a></li>
+                        <div class="contacts__item-title">
+                            Безопасные сделки                    </div>
+                        <ul class="contacts__networks contacts__item-main">
+                            <li><a target="_blank" class="magnit" href="https://www.fl.ru/">Fl.ru</a></li>
+                             
+                            <li><a target="_blank" class="magnit" href="https://freelance.ru/">Freelance</a></li>
+                            <li><a target="_blank" class="magnit" href="https://kwork.ru/user/">Kwork</a></li>
                         </ul>
+                        
                     </li>
                     <li class="contacts__item contacts__item--messangers">
                         <div class="contacts__item-title">
@@ -174,62 +193,17 @@ img.emoji {
                         </ul>
                     </li>
                     <li class="contacts__item">
-                        <div class="contacts__item-title">
-                            Безопасные сделки                    </div>
-                        <ul class="contacts__networks contacts__item-main">
-                            <li><a target="_blank" class="magnit" href="https://www.fl.ru/">Fl.ru</a></li>
-                            <li><a target="_blank" class="magnit" href="https://freelance.habr.com/">Habr</a></li>
-                            <li><a target="_blank" class="magnit" href="https://freelance.ru/">Freelance</a></li>
-                            <li><a target="_blank" class="magnit" href="https://kwork.ru/user/">Kwork</a></li>
-                        </ul>
+                       <div class="contacts__item-title">Соцсети</div>
+                        <div class="contacts__item-main contacts__item-main--w200"> </div>
+                        <ul class="contacts__messangers contacts__item-main">
+                        <li><a target="_blank" class="contacts__icon magnit" href="https://x.com/shaerware"><img src="../wp-content/themes/main/assets/img/svg/х.svg" alt=""></a></li>
+                        </ul> 
                     </li>
                 </ul>
-            <div class="contacts__form">
+            <div class="contacts__form seo-title">
                 <div role="form" class="wpcf7" id="wpcf7-f175-o1" lang="ru-RU" dir="ltr">
 <div class="screen-reader-response"></div>
-<form action="post"  class="wpcf7-form" enctype="multipart/form-data" novalidate="novalidate">
-<div style="display: none;">
-<input type="hidden" name="_wpcf7" value="175" />
-<input type="hidden" name="_wpcf7_version" value="5.1.6" />
-<input type="hidden" name="_wpcf7_locale" value="ru_RU" />
-<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f175-o1" />
-<input type="hidden" name="_wpcf7_container_post" value="0" />
-</div>
-<div class="contacts__field contacts__input">
-    <span class="wpcf7-form-control-wrap your-name">
-        <input type="text" name="name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" autocomplete="off" aria-required="true" aria-invalid="false" placeholder="* Представьтесь" />
-    </span>
-</div>
-<div class="contacts__field contacts__input">
-    <span class="wpcf7-form-control-wrap your-email">
-        <input type="email" name="phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" autocomplete="off" aria-required="true" aria-invalid="false" placeholder="* Как с Вами связаться" />
-    </span>
-</div>
-<div class="contacts__field contacts__textarea ">
-    <label><span class="label-tip">Сообщение</span>
-        <span class="wpcf7-form-control-wrap your-message">
-            <textarea type="text" name="text" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" ></textarea>
-        </span>
-    </label>
-</div>
-<div class="contacts__btns">
-<div class="contacts__att-file-wrap contacts__validate">
-        <label class="cursor-hover">
-            <span class="contacts__att-file"></span>
-            <span class="wpcf7-form-control-wrap your-file">
-                <input type="file" name="file" size="40" class="wpcf7-form-control wpcf7-file" id="attach-file" accept=".txt,.png,.jpg,.jpeg,.pdf,.doc,.docx,.ppt,.pptx,.odt" aria-invalid="false" />
-            </span>
-        </label>
-        <span class="contacts__file-info">
-            <span class="contacts__remove-file cursor-hover"></span>
-            <span class="contacts__file-name"></span>
-        </span>
-    </div>
-<div class="contacts__submit-btn-wrap">
-        <input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit contacts__submit-btn cursor-hover magnit" />
-    </div>
-</div>
-</form></div>            </div>
+ </div>            </div>
         </div>
     </div>
 </div>
