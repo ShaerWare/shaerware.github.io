@@ -82,7 +82,10 @@ img.emoji {
 </head>
 
 <body class="not-allowed">
- 
+<div class="sw-cookie-notice" style="display: none;"><p class="sw-cookie-text">We use Google Analytics, Yandex.Metrica, and a chat widget to analyze website traffic and improve our services. These services collect data such as IP addresses and cookies. By continuing to use this site, you agree to their processing. <a class="sw-cookie-link" href="/privacy-policy" target="_blank">Learn more</a></p><br>
+<button class="sw-cookie-btn sw-cookie-accept">Accept</button>
+<button class="sw-cookie-btn sw-cookie-decline">Decline</button>
+</div> 
 
 <div class="hide-content" id="hide-content"></div>
 <div class="custom-cursor"></div>
@@ -358,12 +361,59 @@ img.emoji {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
 <script  src='../wp-content/themes/main/assets/js/main.min.js'></script>
 
-<script>
-window.replainSettings = { id: 'ed7683ce-0512-4eac-a027-81886cb27c0b' };
-(function(u){var s=document.createElement('script');s.async=true;s.src=u;
-var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
-})('https://widget.replain.cc/dist/client.js');
-</script>
+    <script>
+        window.replainSettings = { id: 'ed7683ce-0512-4eac-a027-81886cb27c0b' };
+        (function(u){var s=document.createElement('script');s.async=true;s.src=u;
+        var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
+        })('https://widget.replain.cc/dist/client.js');
+
+        // Cookie banner logic
+        document.addEventListener('DOMContentLoaded', function () {
+            const notice = document.querySelector('.sw-cookie-notice');
+            const acceptBtn = document.querySelector('.sw-cookie-accept');
+            const declineBtn = document.querySelector('.sw-cookie-decline');
+
+            // Show banner if no consent is stored
+            if (!localStorage.getItem('cookieConsent')) {
+                notice.style.display = 'flex';
+            }
+
+            // Handle "Accept" button
+            acceptBtn.addEventListener('click', function () {
+                localStorage.setItem('cookieConsent', 'accepted');
+                notice.style.display = 'none';
+                loadAnalyticsAndChat();
+            });
+
+            // Handle "Decline" button
+            declineBtn.addEventListener('click', function () {
+                localStorage.setItem('cookieConsent', 'declined');
+                notice.style.display = 'none';
+            });
+
+            // Load analytics and chat if consent is already given
+            if (localStorage.getItem('cookieConsent') === 'accepted') {
+                loadAnalyticsAndChat();
+            }
+
+            // Function to load analytics and chat
+            function loadAnalyticsAndChat() {
+                // Yandex.Metrica (already in HTML, no need to reload)
+                // Load Google Analytics (if used, replace UA-XXXXX-Y with your ID)
+                const gaScript = document.createElement('script');
+                gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-Y';
+                gaScript.async = true;
+                document.head.appendChild(gaScript);
+
+                window.dataLayer = window.dataLayer || [];
+                function gtag() { dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'UA-XXXXX-Y', { anonymize_ip: true });
+
+                // Replain chat (already in HTML, no need to reload)
+            }
+        });
+    </script>
 
 <script type='text/javascript' src='../wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.6'></script>
 <script type='text/javascript' src='../wp-includes/js/wp-embed.min.js?ver=5.3.12'></script>
