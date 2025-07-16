@@ -156,8 +156,9 @@
     font-size: 0.9rem;
     line-height: 1.4;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Выравнивание по левому краю */
+    flex-direction: row; /* Текст и кнопки в ряд */
+    flex-wrap: wrap; /* Позволяет перенос */
+    align-items: center; /* Вертикальное выравнивание */
     max-width: 600px;
     margin: 0 auto;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -165,7 +166,9 @@
 
 .sw-cookie-text {
     margin: 0;
-    padding-bottom: 5px;
+    padding-right: 10px; /* Отступ справа от текста */
+    flex: 1; /* Текст занимает доступное пространство */
+    min-width: 200px; /* Минимальная ширина текста */
 }
 
 .sw-cookie-link {
@@ -182,9 +185,8 @@
     background: rgba(248, 249, 250, 0.8);
     color: #000000;
     transition: background 0.3s;
-    margin-top: 5px;
-    margin-right: 0; /* Убираем отступ справа */
-    align-self: flex-start; /* Гарантируем выравнивание кнопки по левому краю */
+    margin-left: 5px; /* Отступ между кнопками */
+    flex-shrink: 0; /* Предотвращает сжатие кнопок */
 }
 
 .sw-cookie-btn:hover {
@@ -196,15 +198,37 @@
     margin-right: 0; /* Убираем отступ справа */
 }
 
-/* Для экранов до 500px */
-@media (max-width: 500px) {
+/* Для экранов до 200px */
+@media (max-width: 200px) {
     .sw-cookie-notice {
         font-size: 0.8rem;
         padding: 6px;
+        flex-direction: column; /* Текст и кнопки вертикально */
+        align-items: flex-start; /* Выравнивание по левому краю */
     }
+
+    .sw-cookie-text {
+        padding-bottom: 5px; /* Отступ под текстом */
+        padding-right: 0; /* Убираем отступ справа */
+        flex: none; /* Отключаем flex для текста */
+    }
+    
+.sw-cookie-notice > br {
+        display: none; /* Скрываем <br> */
+    }
+     
 
     .sw-cookie-btn {
         font-size: 0.7rem;
         padding: 4px 8px;
+        margin-left: 0; /* Убираем отступ слева */ 
+        margin-right: 5px; /* Отступ между кнопками */
+        display: inline-block; /* Кнопки в ряд */
+    }
+
+     
+
+    .sw-cookie-decline {
+        margin-left: 5px; /* Отступ между кнопками */
     }
 }
