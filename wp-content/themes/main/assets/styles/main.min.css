@@ -199,7 +199,7 @@
 }
 
 /* Для экранов до 200px */
-@media (max-width: 200px) {
+@media (max-width: 100px) {
     .sw-cookie-notice {
         font-size: 0.8rem;
         padding: 6px;
