@@ -93,11 +93,6 @@
         font-size: 0.85rem; /* Уменьшенный шрифт */
     }
 
-    .contacts__icon img {
-        width: 20px; /* Уменьшенные иконки */
-        height: 20px;
-    }
-
     .contacts__networks a {
         font-size: 0.8rem; /* Уменьшенный текст ссылок */
     }
@@ -108,7 +103,6 @@
     }
 }
 
-/* Для экранов до 440px */
 @media (max-width: 500px) {
 
     .contacts__networks {
@@ -127,11 +121,6 @@
 
     .contacts__item-title {
         font-size: 0.75rem; /* Ещё меньший шрифт */
-    }
-
-    .contacts__icon img {
-        width: 16px; /* Ещё меньшие иконки */
-        height: 16px;
     }
 
     .contacts__networks a {
