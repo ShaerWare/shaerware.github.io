@@ -1,3 +1,5 @@
+<!-- HEADER BANNER --> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=ShaerWare%20Digital&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35" width="100%"/> <!-- PROJECT LOGO --> <div align="center"> <br/> <img src="https://img.icons8.com/fluency/96/code.png" alt="logo" width="100"/>
+
 # 🚀 ShaerWare Digital - Премиум разработка веб-сайтов и мобильных приложений
 
 <div align="center">
