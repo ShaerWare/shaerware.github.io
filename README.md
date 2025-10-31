@@ -1,5 +1,4 @@
-<!-- HEADER BANNER --> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=ShaerWare%20Digital&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35" width="100%"/> <!-- PROJECT LOGO --> <div align="center"> <br/> <img src="https://img.icons8.com/fluency/96/code.png" alt="logo" width="100"/>
-
+<!-- HEADER BANNER --> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=ShaerWare%20Digital&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35" width="100%"/> <!-- PROJECT LOGO --> <div align="center"> <br/>  
 # 🚀 ShaerWare Digital - Премиум разработка веб-сайтов и мобильных приложений
 
 <div align="center">
@@ -164,7 +163,7 @@ graph LR
 
 - 🌐 **Сайт**: [shaerware.digital](https://shaerware.digital/ru/)
 - 💼 **Профиль на Kwork**: [ТОП разработчик](https://kwork.ru/user/senior-php-developer)
-- 📧 **Email**: Форма связи на сайте
+- 📧 **Телеграм**: [shaerware](https://t.me/shaerware)
 - 💬 **Консультация**: Бесплатная первичная оценка проекта
 
 ### 🎯 **Что мы предлагаем**
@@ -195,8 +194,8 @@ graph LR
 
 [![Website](https://img.shields.io/badge/🌐_Сайт-shaerware.digital-4285F4?style=for-the-badge)](https://shaerware.digital/ru/)
 
-[![Telegram](https://img.shields.io/badge/Telegram-Написать-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/yourusername)
-[![Twitter](https://img.shields.io/badge/Twitter-Подписаться-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/yourusername)
+[![Telegram](https://img.shields.io/badge/Telegram-Написать-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/shaerware)
+[![Twitter](https://img.shields.io/badge/Twitter-Подписаться-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/shaerware)
 
 [![Kwork](https://img.shields.io/badge/Kwork-Заказать_услугу-FFD700?style=for-the-badge&logo=star&logoColor=black)](https://kwork.ru/user/senior-php-developer)
 
