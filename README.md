@@ -12,7 +12,7 @@
 [![Проектов](https://img.shields.io/badge/Проектов-100+-00C853?style=for-the-badge&logo=checkmarx&logoColor=white)](#портфолио)
 [![Опыт](https://img.shields.io/badge/Опыт-5+_лет-FF6D00?style=for-the-badge&logo=calendar&logoColor=white)](#о-нас)
 
-[🌐 Наш сайт](https://shaerware.digital/ru/) • [📋 Портфолио](https://shaerware.digital/ru/proekty/) • [🛠️ Как я работаею](https://shaerware.digital/ru/how-we-work/) • [💬 Связаться с нами](#контакты)
+[🌐 Наш сайт](https://shaerware.digital/ru/) • [📋 Портфолио](https://shaerware.digital/ru/proekty/) • [🛠️ Как я работаю](https://shaerware.digital/ru/how-we-work/) • [💬 Связаться с нами](#контакты)
 
 ---
 
