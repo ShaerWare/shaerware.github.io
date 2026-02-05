@@ -163,7 +163,7 @@ graph LR
 
 - 🌐 **Сайт**: [shaerware.digital](https://shaerware.digital/ru/)
 - 💼 **Профиль на Kwork**: [ТОП разработчик](https://kwork.ru/user/senior-php-developer)
-- 📧 **Телеграм**: [shaerware](https://t.me/shaerware)
+- 📧 **Телеграм**: [shaerware](https://t.me/shaerware_digital_bot)
 - 💬 **Консультация**: Бесплатная первичная оценка проекта
 
 ### 🎯 **Что мы предлагаем**
@@ -194,7 +194,7 @@ graph LR
 
 [![Website](https://img.shields.io/badge/🌐_Сайт-shaerware.digital-4285F4?style=for-the-badge)](https://shaerware.digital/ru/)
 
-[![Telegram](https://img.shields.io/badge/Telegram-Написать-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/shaerware)
+[![Telegram](https://img.shields.io/badge/Telegram-Написать-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/shaerware_digital_bot)
 [![Twitter](https://img.shields.io/badge/Twitter-Подписаться-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/shaerware)
 
 [![Kwork](https://img.shields.io/badge/Kwork-Заказать_услугу-FFD700?style=for-the-badge&logo=star&logoColor=black)](https://kwork.ru/user/senior-php-developer)
