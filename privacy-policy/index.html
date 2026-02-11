@@ -299,58 +299,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
     </div>
 
-        <script>
-        window.replainSettings = { id: 'ed7683ce-0512-4eac-a027-81886cb27c0b' };
-        (function(u){var s=document.createElement('script');s.async=true;s.src=u;
-        var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
-        })('https://widget.replain.cc/dist/client.js');
-
-        // Cookie banner logic
-        document.addEventListener('DOMContentLoaded', function () {
-            const notice = document.querySelector('.sw-cookie-notice');
-            const acceptBtn = document.querySelector('.sw-cookie-accept');
-            const declineBtn = document.querySelector('.sw-cookie-decline');
-
-            // Show banner if no consent is stored
-            if (!localStorage.getItem('cookieConsent')) {
-                notice.style.display = 'flex';
-            }
-
-            // Handle "Accept" button
-            acceptBtn.addEventListener('click', function () {
-                localStorage.setItem('cookieConsent', 'accepted');
-                notice.style.display = 'none';
-                loadAnalyticsAndChat();
-            });
-
-            // Handle "Decline" button
-            declineBtn.addEventListener('click', function () {
-                localStorage.setItem('cookieConsent', 'declined');
-                notice.style.display = 'none';
-            });
-
-            // Load analytics and chat if consent is already given
-            if (localStorage.getItem('cookieConsent') === 'accepted') {
-                loadAnalyticsAndChat();
-            }
-
-            // Function to load analytics and chat
-            function loadAnalyticsAndChat() {
-                // Yandex.Metrica (already in HTML, no need to reload)
-                // Load Google Analytics (if used, replace UA-XXXXX-Y with your ID)
-                const gaScript = document.createElement('script');
-                gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-Y';
-                gaScript.async = true;
-                document.head.appendChild(gaScript);
-
-                window.dataLayer = window.dataLayer || [];
-                function gtag() { dataLayer.push(arguments); }
-                gtag('js', new Date());
-                gtag('config', 'UA-XXXXX-Y', { anonymize_ip: true });
-
-                // Replain chat (already in HTML, no need to reload)
-            }
-        });
-    </script>
+    <script src="https://admin.ai-sekretar24.ru/widget.js"></script>
 </body>
 </html>
