@@ -295,50 +295,7 @@ webvisor:true
 </div>
 </div>
 
-    <script>
-        window.replainSettings = { id: 'ed7683ce-0512-4eac-a027-81886cb27c0b' };
-        (function(u){var s=document.createElement('script');s.async=true;s.src=u;
-        var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
-        })('https://widget.replain.cc/dist/client.js');
-
-        // Cookie banner logic
-        document.addEventListener('DOMContentLoaded', function () {
-            const notice = document.querySelector('.sw-cookie-notice');
-            const acceptBtn = document.querySelector('.sw-cookie-accept');
-            const declineBtn = document.querySelector('.sw-cookie-decline');
-
-            if (!localStorage.getItem('cookieConsent')) {
-                notice.style.display = 'flex';
-            }
-
-            acceptBtn.addEventListener('click', function () {
-                localStorage.setItem('cookieConsent', 'accepted');
-                notice.style.display = 'none';
-                loadAnalyticsAndChat();
-            });
-
-            declineBtn.addEventListener('click', function () {
-                localStorage.setItem('cookieConsent', 'declined');
-                notice.style.display = 'none';
-            });
-
-            if (localStorage.getItem('cookieConsent') === 'accepted') {
-                loadAnalyticsAndChat();
-            }
-
-            function loadAnalyticsAndChat() {
-                const gaScript = document.createElement('script');
-                gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-Y';
-                gaScript.async = true;
-                document.head.appendChild(gaScript);
-
-                window.dataLayer = window.dataLayer || [];
-                function gtag() { dataLayer.push(arguments); }
-                gtag('js', new Date());
-                gtag('config', 'U+A-XXXXX-Y', { anonymize_ip: true });
-            }
-        });
-    </script>
+<script src="https://admin.ai-sekretar24.ru/widget.js"></script>
 
 
 <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/is_js/0.9.0/is.min.js"></script>
