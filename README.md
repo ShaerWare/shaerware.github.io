@@ -7,12 +7,12 @@
 
 **Превращаем идеи в мощные цифровые решения**
 
-[![Сайт](https://img.shields.io/badge/Сайт-shaerware.digital-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://shaerware.digital/ru/)
+[![Сайт](https://img.shields.io/badge/Сайт-shaerware.github.io-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://shaerware.github.io/ru/)
 [![Kwork](https://img.shields.io/badge/Kwork-ТОП_Разработчик-FFD700?style=for-the-badge&logo=star&logoColor=black)](https://kwork.ru/user/senior-php-developer)
 [![Проектов](https://img.shields.io/badge/Проектов-100+-00C853?style=for-the-badge&logo=checkmarx&logoColor=white)](#портфолио)
 [![Опыт](https://img.shields.io/badge/Опыт-5+_лет-FF6D00?style=for-the-badge&logo=calendar&logoColor=white)](#о-нас)
 
-[🌐 Наш сайт](https://shaerware.digital/ru/) • [📋 Портфолио](https://shaerware.digital/ru/proekty/) • [🛠️ Как я работаю](https://shaerware.digital/ru/how-we-work/) • [💬 Связаться с нами](#контакты)
+[🌐 Наш сайт](https://shaerware.github.io/ru/) • [📋 Портфолио](https://shaerware.github.io/ru/proekty/) • [🛠️ Как я работаю](https://shaerware.github.io/ru/how-we-work/) • [💬 Связаться с нами](#контакты)
 
 ---
 
@@ -126,7 +126,7 @@ graph LR
 
 > **🔥 100+ проектов в нашем портфолио: финтех, здравоохранение, образование, ритейл и SaaS**
 
-[📋 Посмотреть полное портфолио →](https://shaerware.digital/ru/proekty/)
+[📋 Посмотреть полное портфолио →](https://shaerware.github.io/ru/proekty/)
 
 ## 📊 Цифры и факты
 
@@ -161,7 +161,7 @@ graph LR
 
 ### 📞 **Свяжитесь с нами**
 
-- 🌐 **Сайт**: [shaerware.digital](https://shaerware.digital/ru/)
+- 🌐 **Сайт**: [shaerware.github.io](https://shaerware.github.io/ru/)
 - 💼 **Профиль на Kwork**: [ТОП разработчик](https://kwork.ru/user/senior-php-developer)
 - 📧 **Телеграм**: [shaerware](https://t.me/shaerware_digital_bot)
 - 💬 **Консультация**: Бесплатная первичная оценка проекта
@@ -192,7 +192,7 @@ graph LR
 
 ### 🌐 **Основные каналы связи**
 
-[![Website](https://img.shields.io/badge/🌐_Сайт-shaerware.digital-4285F4?style=for-the-badge)](https://shaerware.digital/ru/)
+[![Website](https://img.shields.io/badge/🌐_Сайт-shaerware.github.io-4285F4?style=for-the-badge)](https://shaerware.github.io/ru/)
 
 [![Telegram](https://img.shields.io/badge/Telegram-Написать-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/shaerware_digital_bot)
 [![Twitter](https://img.shields.io/badge/Twitter-Подписаться-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/shaerware)
@@ -205,8 +205,8 @@ graph LR
 
 **Готовы трансформировать свой бизнес с помощью передовых технологий?**
 
-[![Начать проект](https://img.shields.io/badge/🚀_Начать_Проект-Связаться-00C853?style=for-the-badge)](https://shaerware.digital/ru/)
-[![Портфолио](https://img.shields.io/badge/📋_Посмотреть_Портфолио-Наши_Работы-2196F3?style=for-the-badge)](https://shaerware.digital/ru/proekty/)
+[![Начать проект](https://img.shields.io/badge/🚀_Начать_Проект-Связаться-00C853?style=for-the-badge)](https://shaerware.github.io/ru/)
+[![Портфолио](https://img.shields.io/badge/📋_Посмотреть_Портфолио-Наши_Работы-2196F3?style=for-the-badge)](https://shaerware.github.io/ru/proekty/)
 
 **⭐ Поставьте звезду этому репозиторию, если вам нравится наша работа!**
 
