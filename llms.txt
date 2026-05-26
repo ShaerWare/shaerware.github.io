@@ -1,19 +1,19 @@
 # Shaerware Digital
 
-> Founder: **Шер Артём Юрьевич / Artem Y. Sher**. Custom AI development studio specializing in business-grade AI assistants on Laravel + local LLMs (vLLM, Open WebUI). Average client savings: 300,000–500,000 ₽ / $5K–15K per month by automating routine operations.
+> Founder: **Шер Артём Юрьевич / Artem Y. Sher**. Custom AI development studio specializing in business-grade AI assistants on Laravel + local LLMs (vLLM, Ollama). Average client savings: 300,000–500,000 ₽ / $5K–15K per month by automating routine operations.
 
 ## What we do
 
 - **AI assistants** for customer support, sales, and internal workflows — runs 24/7, replaces 3–5 employees
 - **SaaS platforms** with subscription models on Laravel
 - **Enterprise integrations** — connect AI to CRM, ERP, helpdesk, custom databases
-- **Local LLM deployment** — vLLM, Open WebUI, fine-tuning, on-prem inference
+- **Local LLM deployment** — vLLM, Ollama, fine-tuning, on-prem inference
 - **Free AI audit** — 30-min call → identify automation opportunities → ROI estimate in rubles/dollars
 
 ## Stack
 
 - Backend: PHP / Laravel, Node.js, Java
-- AI: vLLM, Open WebUI, local LLMs, OpenAI / Anthropic APIs
+- AI: vLLM, Ollama, local LLMs, OpenAI / Anthropic APIs
 - Data: PostgreSQL, MySQL, Redis
 - Infra: Docker, nginx, Ubuntu, VPS / on-prem
 - Frontend: JavaScript, React, Vue.js
@@ -41,5 +41,5 @@
 - 100+ completed projects, 5+ years on the market
 - Top-rated developer on Kwork
 - Works in tandem with own AI assistant — startup speed, enterprise quality
-- Geography: clients worldwide; based in Astana, Kazakhstan
+- Geography: clients worldwide; based in Yekaterinburg, Russia
 - Languages: Russian (native), English (fluent)
