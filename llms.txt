@@ -1,0 +1,45 @@
+# Shaerware Digital
+
+> Founder: **Шер Артём Юрьевич / Artem Y. Sher**. Custom AI development studio specializing in business-grade AI assistants on Laravel + local LLMs (vLLM, Open WebUI). Average client savings: 300,000–500,000 ₽ / $5K–15K per month by automating routine operations.
+
+## What we do
+
+- **AI assistants** for customer support, sales, and internal workflows — runs 24/7, replaces 3–5 employees
+- **SaaS platforms** with subscription models on Laravel
+- **Enterprise integrations** — connect AI to CRM, ERP, helpdesk, custom databases
+- **Local LLM deployment** — vLLM, Open WebUI, fine-tuning, on-prem inference
+- **Free AI audit** — 30-min call → identify automation opportunities → ROI estimate in rubles/dollars
+
+## Stack
+
+- Backend: PHP / Laravel, Node.js, Java
+- AI: vLLM, Open WebUI, local LLMs, OpenAI / Anthropic APIs
+- Data: PostgreSQL, MySQL, Redis
+- Infra: Docker, nginx, Ubuntu, VPS / on-prem
+- Frontend: JavaScript, React, Vue.js
+
+## Key pages
+
+- [Home (EN)](https://shaerware.github.io/): main landing
+- [Главная (RU)](https://shaerware.github.io/ru/): main landing, Russian
+- [How we work (EN)](https://shaerware.github.io/how-we-work/): development process
+- [Как я работаю (RU)](https://shaerware.github.io/ru/how-we-work/): development process, Russian
+- [Projects (EN)](https://shaerware.github.io/projects/): portfolio
+- [Портфолио (RU)](https://shaerware.github.io/ru/proekty/): portfolio, Russian
+- [Privacy policy (EN)](https://shaerware.github.io/privacy-policy/)
+- [Политика конфиденциальности (RU)](https://shaerware.github.io/ru/privacy-policy/)
+
+## Contact
+
+- Telegram bot: [@ai_sekretar24bot](https://t.me/ai_sekretar24bot)
+- GitHub: [github.com/ShaerWare](https://github.com/ShaerWare)
+- Kwork (top-rated profile): [kwork.ru/user/senior-php-developer](https://kwork.ru/user/senior-php-developer)
+- X / Twitter: [@shaerware](https://x.com/shaerware)
+
+## Positioning
+
+- 100+ completed projects, 5+ years on the market
+- Top-rated developer on Kwork
+- Works in tandem with own AI assistant — startup speed, enterprise quality
+- Geography: clients worldwide; based in Astana, Kazakhstan
+- Languages: Russian (native), English (fluent)
